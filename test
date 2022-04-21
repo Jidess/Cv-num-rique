@@ -1,0 +1,21 @@
+ <img src="assets/img/IMG_20210609_125136_882.jpg" class="d-block img-fluid w-25  mx-auto opacity-75" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white">Moi</h5>
+                    <p>c'est moi mdr</p>
+
+
+
+
+                    <div class="container col-xxl-8 px-4 py-5">
+                        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                            <div class="col-10 col-sm-8 col-lg-6">
+                                <img src="assets/img/IMG_20210609_125136_882.jpg" class="d-block mx-lg-auto img-fluid"
+                                    alt="Photo de moi" width="700" height="500">
+                            </div>
+                            <div class="col-lg-6">
+                                <h1 class="display-5 fw-bold lh-1 mb-3 text-white">Mehdi Benkebouche
+                                </h1>
+                                <p class="lead text-white">Bla bla bla webdev blabla bla mon carousel ne marche plus je sais pas pourquoi</p>
+                            </div>
+                        </div>
+                    </div>
