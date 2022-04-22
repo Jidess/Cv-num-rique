@@ -10,33 +10,34 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body class="bg-dark opacity-75">
+<body class="bg-dark">
 
-    <nav class="navbar navbar-dark navbar-expand-md bg-black justify-content-start gap-2">
+    <nav class="navbar navbar-light navbar-expand-md bg-danger gap-2">
+        <span class="fs-4 mx-3 text-black">Mehdi Benkebouche</span>
         <button class="navbar-toggler light" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
             aria-controls="#toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation"> <span
                 class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse mx-3 gap-3" id="toggleMobileMenu">
-            <div class="nav-item"> <button class="btn btn-secondary" type="button" data-bs-target="#carouselcard"
+            <div class="nav-item"> <button class="btn btn-dark my-1 mx-auto" type="button" data-bs-target="#carouselcard"
                     data-bs-slide-to="0">Profil</button></div>
-            <div class="nav-item"> <button class="btn btn-secondary" type="button" data-bs-target="#carouselcard"
+            <div class="nav-item"> <button class="btn btn-dark my-1 mx-auto" type="button" data-bs-target="#carouselcard"
                     data-bs-slide-to="1">Diplomes</button></div>
-            <div class="nav-item"> <button class="btn btn-secondary" type="button" data-bs-target="#carouselcard"
+            <div class="nav-item"> <button class="btn btn-dark my-1 mx-auto" type="button" data-bs-target="#carouselcard"
                     data-bs-slide-to="2">XP pro</button></div>
-            <div class="nav-item"> <button class="btn btn-secondary" type="button" data-bs-target="#carouselcard"
+            <div class="nav-item"> <button class="btn btn-dark my-1 mx-auto" type="button" data-bs-target="#carouselcard"
                     data-bs-slide-to="3">XP Dev</button></div>
-            <div class="nav-item"> <button class="btn btn-secondary" type="button" data-bs-target="#carouselcard"
+            <div class="nav-item"> <button class="btn btn-dark my-1 mx-auto" type="button" data-bs-target="#carouselcard"
                     data-bs-slide-to="4">Portofolio dev</button></div>
-            <div class="nav-item"> <button class="btn btn-secondary" type="button" data-bs-target="#carouselcard"
+            <div class="nav-item"> <button class="btn btn-dark my-1 mx-auto" type="button" data-bs-target="#carouselcard"
                     data-bs-slide-to="5">Contact</button></div>
-            <div class="nav-item"> <button class="btn btn-secondary" type="button" data-bs-target="#carouselcard"
+            <div class="nav-item"> <button class="btn btn-dark my-1 mx-auto" type="button" data-bs-target="#carouselcard"
                     data-bs-slide-to="6">Autre</button></div>
         </div>
     </nav>
 
-    <Section id="carouselcard" class="carousel slide mt-2">
+    <Section id="carouselcard" class="carousel slide mt-2 bg-black bg-opacity-50 rounded-3 shadow-lg">
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active ">
                 <div class="container col-xxl-8 px-4 py-5">
                     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                         <div class="col-10 col-sm-8 col-lg-6">
@@ -53,114 +54,142 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item w-100">
-                <div class="row gap-md-4 justify-content-center">
-                    <div class="card mb-2  col-md-4" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Bac STI2D</h5>
-                            <p class="card-text">Option systeme d'information et numérique</p>
-
+            <div class="carousel-item w-100 text-white ">
+                <div class="container px-4 py-5" id="hanging-icons">
+                    <h2 class="pb-2 border-bottom border-danger">Diplomes</h2>
+                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-square text-light flex-shrink-0 me-3">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/certificate-solid.svg" style="filter: invert(1);"></svg>
+                            </div>
+                            <div>
+                                <h2>Bac STI2D</h2>
+                                <p>Option système d'information et numérique</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card  mb-2 col-md-4" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">License 3 Anglais</h5>
-                            <p class="card-text">Option LLCER Anglais</p>
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-square text-light flex-shrink-0 me-3">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/certificate-solid.svg" style="filter: invert(1);"></svg>
+                            </div>
+                            <div>
+                                <h2>License 3 Anglais</h2>
+                                <p>Option LLCER</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mb-2  col-md-4" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Formation WebDev</h5>
-                            <p class="card-text">En cours...FrontEnd et BackEnd</p>
-
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-square text-light flex-shrink-0 me-3">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/certificate-solid.svg" style="filter: invert(1);"></svg>
+                            </div>
+                            <div>
+                                <h2>Formation WebDev</h2>
+                                <p>FrontEnd et BackEnd...en cours</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item w-100">
-                <div class="row gap-md-4 justify-content-center">
-                    <div class="card mb-2  col-md-6" style="width: 18rem;">
-                        <img src="assets/img/Mediametrie.png" style="height: 14.5rem" alt="Logo mediametrie">
-                        <div class="card-body">
-                            <h5 class="card-title"> Télé-enqueteur Médiamétrie</h5>
-                            <p class="card-text">Bla bla relation client</p>
+                <div class="container px-4 py-5" id="boulot-cards">
+                    <h2 class="pb-2 border-bottom border-danger text-white">Experience professionel</h2>
 
+                    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 justify-content-center">
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                    <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Télé-enqueteur Mediamétrie</h4>
+                                    <p>2019-2020</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                    <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Stage de formation</h4>
+                                    <p>2022</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card  mb-2 col-md-6" style="width: 18rem;">
-                        <img src="assets/img/question-solid.svg" style="height: 14.5rem" alt="inconue">
-                        <div class="card-body">
-                            <h5 class="card-title">Stage de formation</h5>
-                            <p class="card-text">Soon</p>
-                        </div>
-                    </div>
-
                 </div>
             </div>
             <div class="carousel-item w-100">
-                <div class="row gap-md-4 justify-content-center">
-                    <div class="card mb-2  col-md-4" style="width: 18rem;">
-                        <img src="assets/img/html5-brands.svg" style="height: 14.5rem" alt="html5 logo">
-                        <div class="card-body">
-                            <h5 class="card-title"> HTML5 </h5>
-                            <p class="card-text">Soon</p>
+                <div class="container px-4 py-5 text-white" id="featured-3">
+                    <h2 class="pb-2 border-bottom border-danger">Experience FrontEnd</h2>
+                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                        <div class="feature col">
+                            <div class="feature-icon">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/html5-brands.svg" alt="" style="height: 4em; width: 4em; filter: invert(1);"></svg>
+                            </div>
+                            <h2>HTML5</h2>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                <div class="progress-bar text-black bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
                                     aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card  mb-2 col-md-4" style="width: 18rem;">
-                        <img src="assets/img/css3-alt-brands.svg" style="height: 14.5rem" alt="CSS3 logo">
-                        <div class="card-body">
-                            <h5 class="card-title"> CSS3 </h5>
-                            <p class="card-text">Soon</p>
+                        <div class="feature col">
+                            <div class="feature-icon">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/css3-alt-brands.svg" alt=""
+                                        style="height: 4em; width: 4em; filter: invert(1);"></svg>
+                            </div>
+                            <h2>CSS3</h2>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                <div class="progress-bar text-black bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
                                     aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card  mb-2 col-md-4" style="width: 18rem;">
-                        <img src="assets/img/bootstrap-brands.svg" alt="Bootstrap5">
-                        <div class="card-body">
-                            <h5 class="card-title"> BOOTSTRAP5 </h5>
-                            <p class="card-text">Soon</p>
+                        <div class="feature col">
+                            <div class="feature-icon">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/bootstrap-brands.svg" alt=""
+                                        style="height: 4em; width: 4em; filter: invert(1);"></svg>
+                            </div>
+                            <h2>BOOTSTRAP5</h2>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                <div class="progress-bar text-black bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
                                     aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">15%
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="carousel-item w-100">
-                <div class="row gap-md-5 justify-content-center">
-                    <div class="card mb-2  col-md-6" style="width: 18rem;">
-                        <img src="assets/img/Judgement.png" alt="Carte tarot jugement">
-                        <div class="card-body">
-                            <h5 class="card-title">Exercice flex carte</h5>
-                            <p class="card-text">Exercice réalisé lors de la première semaine de formation web dev</p>
-                            <a href="https://jidess.github.io/Exercicehtml/ExoCarteLeMaudit.html" target="_blank"
-                                class="btn btn-primary">Voir</a>
+                <div class="container px-4 py-5 text-white" id="featured-3">
+                    <h2 class="pb-2 border-bottom border-danger">Portofolio dev</h2>
+                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 justify-content-center">
+                        <div class="feature col">
+                            <div class="feature-icon">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/person-badge-fill.svg" alt=""
+                                        style="height: 4em; width: 4em; filter: invert(1);"></svg>
+                            </div>
+                            <h2>Exercice carte flexbox</h2>
+                            <p>Exercice portant sur les flexbox et le responsive sans media query réalisé lors de la première semaine de formation web dev</p>
+                            <a href="https://jidess.github.io/Exercicehtml/ExoCarteLeMaudit.html" target="_blank" class="btn btn-danger">
+                                Voir
+                            </a>
+                        </div>
+                        <div class="feature col">
+                            <div class="feature-icon">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/Logo_Amiens_Mairie.svg" alt=""
+                                        style="height: 4em; width: 4em"></svg>
+                            </div>
+                            <h2>Exercice Scrum</h2>
+                            <p>Exercice réalisé lors de la seconde semaine de formation web dev, j'ai du assumé le role de chef de projet et de scrum master</p>
+                            <a href="https://jidess.github.io/Site_Bourse_High_Tech/" target="_blank" class="btn btn-danger">
+                                Voir
+                            </a>
                         </div>
                     </div>
-                    <div class="card  mb-2 col-md-6" style="width: 18rem;">
-                        <img src="assets/img/Logo_Amiens_Mairie.svg" alt="Logo_Amiens_Mairie">
-                        <div class="card-body">
-                            <h5 class="card-title">Exercice groupe méthode agiles</h5>
-                            <p class="card-text">Exercice réalisé lors de la seconde semaine de formation web dev, j'ai
-                                du assumé le role de chef de projet et de scrum master</p>
-
-                            <a href="https://jidess.github.io/Site_Bourse_High_Tech/" target="_blank"
-                                class="btn btn-primary">Voir</a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
             <div class="carousel-item w-100">
@@ -177,8 +206,8 @@
                             <p class="lead text-white">Disponible pour rendez-vous dans tout l'agglomeration d'amiens
                                 ainsi qu'a distance </p>
                             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">E-mail</button>
-                                <button type="button" class="btn btn-outline-secondary btn-lg px-4">LinkedIn</button>
+                                <button type="button" class="btn btn-danger btn-lg px-4 me-md-2">E-mail</button>
+                                <button type="button" class="btn btn-outline-danger btn-lg px-4">LinkedIn</button>
                             </div>
                         </div>
                     </div>
@@ -186,7 +215,7 @@
             </div>
             <div class="carousel-item w-100">
                 <div class="container px-4 py-5" id="custom-cards">
-                    <h2 class="pb-2 border-bottom text-white">Autre</h2>
+                    <h2 class="pb-2 border-bottom border-danger text-white">Autre</h2>
 
                     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                         <div class="col">
