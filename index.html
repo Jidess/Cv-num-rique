@@ -10,10 +10,11 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body class="bg-black">
-<main class="d-flex flex-column-reverse flex-md-column vh-102" id="particles-js">
+<body class="bg-black overflow-hidden text-white">
+<main class="d-flex flex-column-reverse flex-md-column vh-100" id="particles-js">
     <nav class="navbar navbar-dark navbar-expand-md bg-black border-bottom border-top border-danger gap-2">
         <span class="fs-4 mx-3 text-secondary">Mehdi Benkebouche</span>
+        <div><a href="assets/BENKEBOUCHE Mehdi.pdf" target="_blank"><img src="assets/img/file-arrow-down-solid.svg" alt="Telechargé mon cv" style="width: 2em; height:2em; filter: invert(40%) sepia(93%) saturate(3089%) hue-rotate(331deg) brightness(84%) contrast(103%);"></a></div>
         <button class="navbar-toggler light" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
             aria-controls="#toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation"> <span
                 class="navbar-toggler-icon"></span></button>
@@ -29,9 +30,7 @@
             <div class="nav-item"> <button class="btn btn-outline-danger my-1 mx-auto" type="button"
                     data-bs-target="#carouselcard" data-bs-slide-to="4">Portfolio</button></div>
             <div class="nav-item"> <button class="btn btn-outline-danger my-1 mx-auto" type="button"
-                    data-bs-target="#carouselcard" data-bs-slide-to="5">Autres</button></div>
-            <div class="nav-item"> <button class="btn btn-outline-danger my-1 mx-auto" type="button"
-                    data-bs-target="#carouselcard" data-bs-slide-to="6">Contact</button></div>
+                    data-bs-target="#carouselcard" data-bs-slide-to="5">Contact</button></div>
         </div>
     </nav>
 
@@ -90,24 +89,27 @@
                 </div>
             </div>
             <div class="carousel-item w-100">
-                <div class="container px-4 py-5" id="boulot-cards">
-                    <h2 class="pb-2 border-bottom border-danger text-white">Expérience professionnelle</h2>
-                    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 justify-content-center">
-                        <div class="col">
-                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Télé-enquêteur Mediamétrie</h4>
-                                    <p>2019-2020</p>
-                                </div>
+                <div class="container px-4 py-5" id="hanging-icons">
+                    <h2 class="pb-2 border-bottom border-danger">Expérience professionnelle</h2>
+                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 justify-content-center">
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-square text-white flex-shrink-0 me-3">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/Mediametrie.png" style="width: 2em; height:2em"></svg>
+                            </div>
+                            <div>
+                                <h2>Télé-enquêteur Mediamétrie</h2>
+                                <p>2019-2020</p>
                             </div>
                         </div>
-
-                        <div class="col">
-                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Stage de formation</h4>
-                                    <p>2022</p>
-                                </div>
+                        <div class="col d-flex align-items-start">
+                            <div class="icon-square text-light flex-shrink-0 me-3">
+                                <svg class="bi" width="1em" height="1em">
+                                    <img src="assets/img/certificate-solid.svg" style="filter: invert(1);"></svg>
+                            </div>
+                            <div>
+                                <h2>Stage de formation</h2>
+                                <p>2022</p>
                             </div>
                         </div>
                     </div>
@@ -193,41 +195,6 @@
                                 class="btn btn-danger">
                                 Voir
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item w-100">
-                <div class="container px-4 py-5" id="custom-cards">
-                    <h2 class="pb-2 border-bottom border-danger text-white">Autres</h2>
-
-                    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                        <div class="col">
-                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                                style="background-image: url('unsplash-photo-1.jpg');">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">CV Formateur Anglais</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                                style="background-image: url('assets/img/IMG_MU.jpg'); background-size: 100% 100% ;">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">CV Compositeur</h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                                style="background-image: url('unsplash-photo-3.jpg');">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">CV Format PDF
-                                    </h2>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
